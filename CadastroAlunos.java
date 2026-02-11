@@ -14,11 +14,11 @@ public class CadastroAlunos {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
-            ExibirMenu();
+            exibirMenu();
             int opcao = scanner.nextInt();
             scanner.nextLine();  // Limpar o buffer
 
-            switch (opcão) {
+            switch (opcao) {
                 case 1:
                     cadastrarAluno(scanner);
                     break;
